@@ -15,14 +15,10 @@ declare type Preferences = ExtensionPreferences
 declare namespace Preferences {
   /** Preferences accessible in the `shepherd` command */
   export type Shepherd = ExtensionPreferences & {}
-  /** Preferences accessible in the `add-cow` command */
-  export type AddCow = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
   /** Arguments passed to the `shepherd` command */
   export type Shepherd = {}
-  /** Arguments passed to the `add-cow` command */
-  export type AddCow = {}
 }
 
