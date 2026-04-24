@@ -1,0 +1,48 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "herd",
+  "title": "herd",
+  "description": "manage all your dev servers",
+  "icon": "herd.jpg",
+  "author": "nimatullo",
+  "categories": [
+    "Developer Tools"
+  ],
+  "commands": [
+    {
+      "name": "shepherd",
+      "title": "Manage Servers",
+      "subtitle": "herd",
+      "description": "manage all your dev servers",
+      "mode": "view"
+    },
+    {
+      "name": "add-cow",
+      "title": "Add Server",
+      "subtitle": "herd",
+      "description": "add a new dev server",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.93.0",
+    "@raycast/utils": "^1.19.0",
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.11",
+    "@types/node": "22.14.0",
+    "@types/react": "19.0.10",
+    "eslint": "^8.57.0",
+    "prettier": "^3.5.0",
+    "typescript": "^5.8.0"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "prepublishOnly": "echo \"Error: no publish\" && exit 1",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
