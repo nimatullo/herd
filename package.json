@@ -15,13 +15,6 @@
       "subtitle": "herd",
       "description": "manage all your dev servers",
       "mode": "view"
-    },
-    {
-      "name": "add-cow",
-      "title": "Add Server",
-      "subtitle": "herd",
-      "description": "add a new dev server",
-      "mode": "view"
     }
   ],
   "dependencies": {
